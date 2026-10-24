@@ -1,0 +1,32 @@
+Architectures: amd64 arm64
+Codename: bookworm
+Components: main
+Date: Sat, 24 Oct 2026 16:05:59 +0000
+Description: Cloud Fuse package repository (bookworm)
+Label: Cloud Fuse
+Origin: Cloud Fuse
+Suite: bookworm
+MD5Sum:
+ 2a4fd66f20348f36e2c461d7393ef7fd              208 Release
+ ba99493b1a038a0e1ab988a554c0e69d             1766 main/binary-amd64/Packages
+ fae1529c665aa78be31a4337255ddfab              910 main/binary-amd64/Packages.gz
+ 7c61c19928108f9395aacfd92b6dc10b             1766 main/binary-arm64/Packages
+ ff6272a68b825134ee4b1163088a7bd1              911 main/binary-arm64/Packages.gz
+SHA1:
+ 23de43d3e1f8f7f57decf190a67db89814e37541              208 Release
+ f0b759a2657332fcdc421a27594ba2a8432b4e4f             1766 main/binary-amd64/Packages
+ 8d36925be3fdb4ae9b06f8320eef23c6047f825a              910 main/binary-amd64/Packages.gz
+ 7f448e53a625fb7dcfc2c85730a92a225342c6a2             1766 main/binary-arm64/Packages
+ 59f0524a1793320a636ebbaa1e6edd70d329a6f3              911 main/binary-arm64/Packages.gz
+SHA256:
+ 210feb18e41f9a850e5951a981b39fb441a898e7d76bffa2d27656f5f1dda245              208 Release
+ 600bc18057dada2d83254582dd7a8db8cd50dc96f4fcf95023ccef7bc4376209             1766 main/binary-amd64/Packages
+ 623f06716a01bbd1f32c0f300ef10b52b0d883354f9aae276ab30ce0680c39bf              910 main/binary-amd64/Packages.gz
+ 0fb99f523437df9b1e09fd5564f1e0491fa555ed672d7237ac193747f9d8bbad             1766 main/binary-arm64/Packages
+ 5c24f1ee5dc893ba4c84c2c9e59cdc0fe82a3b30cff9f0d2e22d69f62a6247f2              911 main/binary-arm64/Packages.gz
+SHA512:
+ 39d80afa5ee264630cdb153a4836e3fbe65cd9c6a0827be39734a5bf996bf7dac5d717229704b9331f20c0775c5a0269f1da1119ad2da915fe02d4272bd39bfa              208 Release
+ 2d93d581b374d0b2f14df73024d3fc4bfbc4e95db64631453012671cb30be3e015f656e8d46c80141d3a91387b084497173e05559275ebc0c20c8b062c7d5929             1766 main/binary-amd64/Packages
+ e62fd6b02719637eafa92c6aa28093ce8e4d08a803d0b03170108880f38ac4da9d60a655772098ddab5bc8fddc39ec099a4b19afbd8b4587e0b40428471869d1              910 main/binary-amd64/Packages.gz
+ fcb12fa853dbf675fbf19b047bd256506143855247bd4afe2701a0a533cf20d3f8e1e27cb07e52e4ed88bd583632d3896965cad1de61642e3e8e317b9d9cc9d1             1766 main/binary-arm64/Packages
+ 64fa177297ac3444ce359ef7a0efa4a568c761789beb55b70b5512deb6fc40af9ff5725e5b692e3b2d236ad85ba18f6008d8327df6b3d21c3fd659bc5ab7f9bb              911 main/binary-arm64/Packages.gz

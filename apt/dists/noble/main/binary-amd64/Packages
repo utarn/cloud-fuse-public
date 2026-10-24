@@ -1,0 +1,42 @@
+Package: cloud-fuse
+Version: 0.3.0
+Architecture: amd64
+Maintainer: Utharn Buranasaksee <utharn.b@rmutsb.ac.th>
+Installed-Size: 4635
+Depends: fuse3, libc6 (>= 2.34)
+Recommends: apparmor
+Filename: pool/noble/c/cloud-fuse/cloud-fuse_0.3.0_amd64.deb
+Size: 3657692
+MD5sum: cd17e7f681ff8aee3a4d61b5ca171eff
+SHA1: 7a85294017e1e2e7b96ebbd8af23df78b7f48739
+SHA256: 06682507d9df6f59f75d3a85886c776f8ab40dae1d8bcc3e6a8380ecac281039
+Section: utils
+Priority: optional
+Homepage: https://github.com/utarn/cloud-fuse-public
+Description: mount a Google Drive account as an on-demand FUSE filesystem
+ Cloud Fuse mounts a Google Drive account as an on-demand, read-write FUSE
+ filesystem.  This package contains the daemon, the cloud-fuse command-line
+ client, and the terminal user interface.
+ .
+ The package installs the cloud-fuse@.service template unit but enables no
+ Instance.  Create one with "cloud-fuse setup <account>".
+
+Package: cloud-fuse-gui
+Version: 0.3.0
+Architecture: amd64
+Maintainer: Utharn Buranasaksee <utharn.b@rmutsb.ac.th>
+Installed-Size: 6
+Depends: cloud-fuse (= 0.3.0), libc6 (>= 2.34), libgl1, libx11-6, libxcursor1, libxrandr2, libxi6, libxinerama1, libwayland-client0, libxkbcommon0, fonts-dejavu-core
+Filename: pool/noble/c/cloud-fuse/cloud-fuse-gui_0.3.0_amd64.deb
+Size: 3423124
+MD5sum: f1f5ac941c3e832607622555ad2f7b72
+SHA1: 56b6be02953707f05cdb16778fd65d72a6e9037d
+SHA256: e409b64bf3c820d60d369105bafd39fe1ad39deabc20d3effe17d5c398ba2506
+Section: utils
+Priority: optional
+Homepage: https://github.com/utarn/cloud-fuse-public
+Description: optional status GUI for Cloud Fuse
+ A single status window showing mount and account state, throughput, Cache
+ usage, and a Needs re-auth banner.  The GUI is optional and the server
+ package never pulls it in.
+

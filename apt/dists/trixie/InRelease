@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 arm64
+Codename: trixie
+Components: main
+Date: Sat, 24 Oct 2026 16:05:59 +0000
+Description: Cloud Fuse package repository (trixie)
+Label: Cloud Fuse
+Origin: Cloud Fuse
+Suite: trixie
+MD5Sum:
+ 255df5f58238033d4273b0dc4e745a06              202 Release
+ c3714b7b132b05928193b2a85b2a12d0             1762 main/binary-amd64/Packages
+ 20af7d2078de45ce3fba3e0a673873d5              907 main/binary-amd64/Packages.gz
+ cdc5c550cf5bf1c66d587d4722b03957             1762 main/binary-arm64/Packages
+ b6c46bff68345ee805a3fd0d05d94d2d              907 main/binary-arm64/Packages.gz
+SHA1:
+ 04c8759f346d10dca358eb172d8243b36cb94e5a              202 Release
+ 6be47114c21e48771f3662c25f85ae515c8bfc82             1762 main/binary-amd64/Packages
+ 018008922c62b3a53bea46d66393af79f7b6e4d8              907 main/binary-amd64/Packages.gz
+ 9dde57d5fff003c57ff3f451a6f0693352649d9f             1762 main/binary-arm64/Packages
+ 29bf5e9f1aa85b730bd8991792c890893e15d042              907 main/binary-arm64/Packages.gz
+SHA256:
+ 4e5f79d96e216359fc47ea6679ebcfdaf617ae56139c45f91f39f4555e1e190d              202 Release
+ b10f18b5db68097b23d2dfdfafd884174580cc7c2739be8519d6b3e0e9822f91             1762 main/binary-amd64/Packages
+ c3468d8ee80b9ecd38b673c24998fbe744aae708aaad8dc231f37f34fddcca7f              907 main/binary-amd64/Packages.gz
+ 7e67b0064af3e74f650441aaac9c6df906c304a49ba5796f01428ed8f2f28e3c             1762 main/binary-arm64/Packages
+ ab0738bb1ea4d75996ae6b2d1222519a73daf2f031cedfbec36342a342c13ef3              907 main/binary-arm64/Packages.gz
+SHA512:
+ 1e1c8176b810041ae5d0ba8c85bd723606c11c579346ae48faa2844b9f3b543184083429f3a34c0b659f7244ea1ac48d3c609dbe17f65c3e8cda805b572a13c4              202 Release
+ 3fabbeb4ac90f90d94f955f10d599972b333e750da8b6b7b4bfc86b6cb1b60992da80fa350c02f52c8d224bbc257006d4c55a69dfe9383f89392c10ebf51a2aa             1762 main/binary-amd64/Packages
+ 39a73ee5a8dba0f4f39d3f87523052b621cc4354cf19b0fcf7e6f653f1e570b33d7a7861194c80d6bd12496f86bb1397b82690e3a6b7ad2159a314cda0384937              907 main/binary-amd64/Packages.gz
+ 433740c44f62e432deaa45936bcfae26567a55657687b6e8350628a273f4f1e7f15d99934f98e3072b81aefc3226a5dbb74331bd678e3fa67aecc79c726b4131             1762 main/binary-arm64/Packages
+ a712ab1522caf5fed8585c8198ce54c7a6e6c3532e17a8221d743f4331205353e86bde0c470b8b71dacb452219383fc4605983f395f9a05b3729fb8275ea1eda              907 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEkiKBxgP4KajV1lgy8j3drHvCqj8FAmrc12cACgkQ8j3drHvC
+qj/lJQ//XGbDEc590NBvexwLgqOeaBrfWd6BDIX0FFEV70Ks709Pv1hRLnFNlMRZ
+wPnlG8YbpSVRfBypja6ISO9xpRWtTPL1JDBC0KqABxD4C511OTllluRgkkvHt+H9
+KnUoaK2eEp66jU7Co6Zaa527e6qLL44rVjMsX4IONDdXdAopS0WotOGtWoa7+Pef
+F3Q1QGiEjG5uD5dTniywo2LgPJXvdQl4kG+DC5DVrimlKYfZR8tusnDQnZYI68kI
+rfMK9Zq6yXG2zHZV0ILUGvHF3ml7DE41ApjYwJUVJeUuysS3zwr9BWxzc7DIwsu7
+eKQtU6ky3CRQTiDMSQUe4M3Tb7hxNeiVWqNPe6C8R1kRtppPezoidJfTluBWolxp
+OmN5w7bREBTdpzpnPZwJxG6iqXUvlPLSb8+yP2LSaXbOXl79/Iq8mNOWvEYcXAnK
+PnF894/fWj2qnHgu+juqB/krt7umkfIX+hlTqIg3ObzmBZhv8fl2Ef3g2VbYqwAx
+l/7G+WC6kvqLQ8MMP8FuOLrArR/V9dkEg+hmBPqofZqGnpTwhwqFAkdFhaBPg0mI
+rCnwvYbHJsAx+9r2hyKi8RdKrWeAIR49VwBkQKz1hM04CsZ58UpPvJ7ESVE8hHRp
+CW/LjbgacEKys+Dxrgri5jjPV8iN/I+Opn3vi/jzP/Q4TkARYIY=
+=R8Ew
+-----END PGP SIGNATURE-----
