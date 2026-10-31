@@ -1,0 +1,32 @@
+Architectures: amd64 arm64
+Codename: resolute
+Components: main
+Date: Sat, 31 Oct 2026 08:33:46 +0000
+Description: Cloud Fuse package repository (resolute)
+Label: Cloud Fuse
+Origin: Cloud Fuse
+Suite: resolute
+MD5Sum:
+ df378913fc524beb2620fca1d3186be0              208 Release
+ 3f4868d98dc581646e039a93f36ff87f             1793 main/binary-amd64/Packages
+ 12228bddc47f5a646f8ad9447ae12472              937 main/binary-amd64/Packages.gz
+ e7d9a987450ad61f4aca0c9a838de593             1793 main/binary-arm64/Packages
+ f75d986e057c0373898d742126404218              933 main/binary-arm64/Packages.gz
+SHA1:
+ 28fa18dc7a78f30b6b147092a42276c37e9cf082              208 Release
+ 9079a83a1c35b26ddf8b017d58992a5d055f2c93             1793 main/binary-amd64/Packages
+ 074721d31060eef218739542776b9f7ce735a804              937 main/binary-amd64/Packages.gz
+ 165f91bc6e2b9a3a0765ce436fccecb3681e2bdd             1793 main/binary-arm64/Packages
+ e4bd3b3d43563d0d571457a87cbe56b26e9f9910              933 main/binary-arm64/Packages.gz
+SHA256:
+ 7da706533ef42e65118f06277c83cfc218c08041781f2a1bdb036f2b41e6b360              208 Release
+ 458dde8f0c5449197d5f651efea4c90f01b9bb8974697290746c1430e3506cc9             1793 main/binary-amd64/Packages
+ 55a41eb79c8fbe8b6760129e3f4602160f9239ca93b63ac7acd3fbe55fb675d6              937 main/binary-amd64/Packages.gz
+ cc09f8ea140ec850be4ebdf1f1f0272070803f5c6a8b4c7f5cab099da1e8f017             1793 main/binary-arm64/Packages
+ 462a1c27dac3d1b62da8aeec58de95019dd422bf7fd8622bb99366e1255a2196              933 main/binary-arm64/Packages.gz
+SHA512:
+ 6f76cf5fbdd0693d14215d4259257b6b6e6f42eacd265187c047bf7747f6b544472c5c2221fd5a69a3352b8a8f653376dee98f488d687783a1e0ab03c7f031af              208 Release
+ de94e87066abc716e99e55c95085be89f643734a65ba9dccc387bd0812678513313f7b6d637ae9851bbd66ebd16100c8810b2f2ac54d8daac2d19099f7acd261             1793 main/binary-amd64/Packages
+ 166b7879f022a096a0c1dcca6a9f383ea752981207e2ee4980fe2699d107e4348eeddb53c5b7577fda2dfe3686072b293cc7f507d26cf2f5763e53b96b05944b              937 main/binary-amd64/Packages.gz
+ 6febc208122b11696e6b3747ea67777e6a4a721c10c5beb9ba061d5f6d19521bb89b576c6ebdf1755a26c8ccf804d426066330e18ad4076ff93f405f9ac28fa7             1793 main/binary-arm64/Packages
+ b45bbf851cbe7ccb49327a259a4272522cd4cc73eed0674d8d9941b0ceb7f0e596d80e37d705e670c2fb594796879887f8437c242fa06633b078bbfc0d905367              933 main/binary-arm64/Packages.gz
