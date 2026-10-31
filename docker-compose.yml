@@ -1,0 +1,88 @@
+# Cloud Fuse on macOS & Windows: run the Linux FUSE daemon in Docker and
+# export the mounted Google Drive to Finder / File Explorer over SMB.
+#
+#   cp .env.example .env      # fill in account + OAuth client credentials
+#   mkdir -p data/licenses    # put <account>.jwt here
+#   docker compose --profile auth run --rm --service-ports auth   # one-time authorization
+#   docker compose up -d
+#
+# See DOCKER_MACOS_WINDOWS.md for the full walkthrough.
+
+name: cloud-fuse-desktop
+
+x-cloud-fuse-env: &cloud-fuse-env
+  CLOUD_FUSE_ACCOUNT: "${CLOUD_FUSE_ACCOUNT:?set CLOUD_FUSE_ACCOUNT in .env}"
+  CLOUD_FUSE_CLIENT_ID: "${CLOUD_FUSE_CLIENT_ID:?set CLOUD_FUSE_CLIENT_ID in .env}"
+  CLOUD_FUSE_CLIENT_SECRET: "${CLOUD_FUSE_CLIENT_SECRET:?set CLOUD_FUSE_CLIENT_SECRET in .env}"
+  CLOUD_FUSE_MOUNTPOINT: "/mnt/drive"
+  RUST_LOG: "${RUST_LOG:-info}"
+
+services:
+  # One container: the FUSE daemon mounts Drive at /mnt/drive, and Samba
+  # exports that live mount to the host.  Keeping both in one container avoids
+  # the mount-propagation problems of sharing a FUSE submount across
+  # containers.
+  cloud-fuse:
+    image: utarn/cloud-fuse:smb
+    entrypoint: ["/usr/local/bin/serve-with-smb.sh"]
+    hostname: cloud-fuse
+    privileged: true
+    devices:
+      - /dev/fuse:/dev/fuse
+    security_opt:
+      - apparmor:unconfined
+    ports:
+      # Loopback only.  Change to "445:445" to serve other machines on the LAN.
+      - "127.0.0.1:445:445"
+      # Fixed OAuth callback for re-authorizing this running container:
+      #   docker compose exec cloud-fuse cloud-fuse --config-dir /config \
+      #     --state-dir /var/lib/cloud-fuse --runtime-dir /run/cloud-fuse \
+      #     auth <account> --listen 0.0.0.0:8765 --no-browser
+      - "127.0.0.1:8765:8765"
+    environment:
+      <<: *cloud-fuse-env
+      CLOUD_FUSE_CREDENTIAL_SOURCE: "/host-state/credentials.json"
+      CLOUD_FUSE_SMB_SHARE: "google-drive"
+      CLOUD_FUSE_SMB_USER: "${SMB_USER:-cloudfuse}"
+      CLOUD_FUSE_SMB_PASSWORD: "${SMB_PASSWORD:-cloudfuse}"
+    volumes:
+      - ./data/licenses:/config/licenses:ro
+      - ./data/${CLOUD_FUSE_ACCOUNT:?}:/host-state:ro
+      - cloud-fuse-state:/var/lib/cloud-fuse
+    restart: unless-stopped
+    stop_grace_period: 30s
+
+  # One-shot OAuth authorization.  Publishes a fixed loopback callback port so
+  # the browser on the host can reach the listener inside the container.  This
+  # works with Docker Desktop's default networking; host networking is not
+  # required.
+  auth:
+    profiles: ["auth"]
+    image: utarn/cloud-fuse:latest
+    ports:
+      - "127.0.0.1:8765:8765"
+    environment:
+      <<: *cloud-fuse-env
+    entrypoint: ["/bin/bash", "-c"]
+    command:
+      - |
+        set -euo pipefail
+        mkdir -p /config /state
+        umask 077
+        cat > "/config/${CLOUD_FUSE_ACCOUNT}.toml" <<EOF
+        account = "${CLOUD_FUSE_ACCOUNT}"
+        mountpoint = "/mnt/drive"
+        client_id = "${CLOUD_FUSE_CLIENT_ID}"
+        client_secret = "${CLOUD_FUSE_CLIENT_SECRET}"
+        EOF
+        exec /usr/local/bin/cloud-fuse \
+          --config-dir /config \
+          --state-dir /state \
+          --runtime-dir /run/cloud-fuse \
+          auth "${CLOUD_FUSE_ACCOUNT}" --listen 0.0.0.0:8765 --no-browser
+    volumes:
+      - ./data:/config
+      - ./data:/state
+
+volumes:
+  cloud-fuse-state:
