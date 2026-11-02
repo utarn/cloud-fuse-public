@@ -1,0 +1,32 @@
+Architectures: amd64 arm64
+Codename: jammy
+Components: main
+Date: Mon, 02 Nov 2026 05:41:04 +0000
+Description: Cloud Fuse package repository (jammy)
+Label: Cloud Fuse
+Origin: Cloud Fuse
+Suite: jammy
+MD5Sum:
+ 3b108afb14f725aa1d965ba07e4315fc              199 Release
+ edf9ee813566fe2b4e28aed751f5d078             1787 main/binary-amd64/Packages
+ 1209b88c35c4a67e120cefa7a1498442              935 main/binary-amd64/Packages.gz
+ 128dd2543c57a88caf4955563c22a0f9             1787 main/binary-arm64/Packages
+ 59ce6e7e0efe5bed6f8bfae009d996f9              931 main/binary-arm64/Packages.gz
+SHA1:
+ 4f0e2fd3bed27a920915e28c006c5a65d6c7564c              199 Release
+ 661a657ec17c59e31d127e8517d48e851002f936             1787 main/binary-amd64/Packages
+ 0c14eac1ff9b6e6e1bf3503dd4f0bb777f0709ce              935 main/binary-amd64/Packages.gz
+ 5ed215e01ff94a08b2fabbe8352d78357ac367f2             1787 main/binary-arm64/Packages
+ 3c6e7eec8e88fa8f1c4c260dcec94745b86f16e3              931 main/binary-arm64/Packages.gz
+SHA256:
+ 13dc2ca89df9b17b2463646b447760f8941b1b5446fe200a911bc6532287a94c              199 Release
+ 42e3eb1ae3252bef6267a6739b802d72fe4b015dc245fe0da6e248232878a3f5             1787 main/binary-amd64/Packages
+ 052d2e6e1210893960451e60a06b19bd80894640a8d799f8843363c4deb5d037              935 main/binary-amd64/Packages.gz
+ de5f7f6c0c7629eb6535be37cdea816a0cafb93988db53bcea92349340cf1d4c             1787 main/binary-arm64/Packages
+ 2a71e7d63735f3c0077d0ffa1d2f3cda874606f71071f44c6e02cfee357cd7d4              931 main/binary-arm64/Packages.gz
+SHA512:
+ 81e03fd7d660283098f9c560ec301b75a406cf47d39a7ce10b0954b5ab88cf16f9429c74692eec495e0a9ed5f2c02f89ea5f98083da73b660e3074789c83af6d              199 Release
+ aa6013db9a5651659ac13bf5675fb51014b7d78f2049806976cc8f3f21520e849b79f34922d5de1166bf889b740baae3ba3616dd982a4e0a41d9648de1b14c2c             1787 main/binary-amd64/Packages
+ 663d479ad09db04d04a03cc0453f1aae3be1493ae06dd23e9131467f5f755fed6c2d5ea052a459d9460034f7ddaad45d3515839a77b7ff8e1e4e29f7b2a2f23e              935 main/binary-amd64/Packages.gz
+ 44c3f9c741f9d0f089cb7a4122827f56b45970c1fbee74b19a0117bd5baf66f6ee0768605f49bdeae450232f773c05d2f1dcae48dc63fdabfe008d8818388010             1787 main/binary-arm64/Packages
+ c343c117dbe73024bdb9e5491d37d4681dfecb303f0e2293140952b1b9d77cea42015436de5511917765dbfc0ce5316eb432d3f744b7c8aa999eacb9b05db93a              931 main/binary-arm64/Packages.gz

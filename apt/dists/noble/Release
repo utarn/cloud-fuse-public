@@ -1,0 +1,32 @@
+Architectures: amd64 arm64
+Codename: noble
+Components: main
+Date: Mon, 02 Nov 2026 05:41:04 +0000
+Description: Cloud Fuse package repository (noble)
+Label: Cloud Fuse
+Origin: Cloud Fuse
+Suite: noble
+MD5Sum:
+ 65126dd531e24c2536078c026d58c38f              199 Release
+ f7bc923be6349e4e45dc0d112854d0e9             1787 main/binary-amd64/Packages
+ be64af628081b4f28c6b87e582c12b24              932 main/binary-amd64/Packages.gz
+ ebef32f57c3f84e771b5c6df884b4906             1787 main/binary-arm64/Packages
+ 5e10f5d0597d68e831dfbcf1e1509d2a              929 main/binary-arm64/Packages.gz
+SHA1:
+ d7d280f1b7d443580805165e7d3fd882e3d87cb6              199 Release
+ be80741f7fcf0aa4fdf8f8734be9954abd5fa6bb             1787 main/binary-amd64/Packages
+ 6eba038c3e4a6206a61215c1cb639e9d03a9c1fd              932 main/binary-amd64/Packages.gz
+ 26c2cfba22cd1e091eb06ba40eebf2d745f6de9f             1787 main/binary-arm64/Packages
+ 15479dd3fbc7d0b60586a42c62f24ba5773daea2              929 main/binary-arm64/Packages.gz
+SHA256:
+ df02e744f4734836b9e43c9a884b9cf0e30c141aae74524e9a58b3c979c965a3              199 Release
+ dbe2af3815ae5ae24685f5897615870e9ac9fb057965b1417c0d010d4920f1c2             1787 main/binary-amd64/Packages
+ 641df14870ef35810ead6c5f9fda5a9c31bc56cd03d8eee8ef61d3952bf5b5c6              932 main/binary-amd64/Packages.gz
+ fa50dedbc5e823c9139746c8885227b7da36f4bc81b8b3fbdac6daadbd63a502             1787 main/binary-arm64/Packages
+ b74db71fa84e2b2c8a8615326dfa802b2b36e78782e29fa5959cd7b52d79853e              929 main/binary-arm64/Packages.gz
+SHA512:
+ 7f4562d9b5cf976668d2db13092d50e160945276348eea4569139ef69cb5629e11c57127cb4e5be47dac425352f8df57c16ebf702a4c4e77689d6b04cce387ca              199 Release
+ e29ac4dfe7c1ceaf369c0877da36a6ea6cf5fbde14caeb14ac02217fed953944a42b5e6bc50d4a0e627d1ee83ce29dedbc6e98ecbfd86467cec315dacb1d67b3             1787 main/binary-amd64/Packages
+ 2074e2be398149ff4157c0e4e53f669246d825263430716077aad0ff32d6136d48f19d94d81560eb4f4ee3bfc26b04f0d5eea4784afc80d7cd5079ff178ed42a              932 main/binary-amd64/Packages.gz
+ 13659a2e966d5b43d965a1743bc8a697844ee18d257c0aa968d0946e828f6c8a69628c798fab06e9c2e58fb373f760747a73f31a9a59290c88ffba5691769b0f             1787 main/binary-arm64/Packages
+ 0f6a163914233f4ae19b9d5f17a3e5e7dca58d60b105d73df0e2336e715e5932a4e1e6d67d54c191ff6f01982908a3dc88e9c4772bf2f320bfe4a4b5913a7ac1              929 main/binary-arm64/Packages.gz

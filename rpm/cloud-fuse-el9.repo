@@ -1,0 +1,7 @@
+[cloud-fuse-el9]
+name=Cloud Fuse EL9 ($basearch)
+baseurl=https://utarn.github.io/cloud-fuse-public/rpm/el9/$basearch
+enabled=1
+gpgcheck=1
+repo_gpgcheck=0
+gpgkey=https://utarn.github.io/cloud-fuse-public/cloud-fuse.gpg.key

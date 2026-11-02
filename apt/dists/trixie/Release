@@ -1,0 +1,32 @@
+Architectures: amd64 arm64
+Codename: trixie
+Components: main
+Date: Mon, 02 Nov 2026 05:41:05 +0000
+Description: Cloud Fuse package repository (trixie)
+Label: Cloud Fuse
+Origin: Cloud Fuse
+Suite: trixie
+MD5Sum:
+ c56124ccac1587a347757d9c82f20648              202 Release
+ 3f7ff27df7809ad51cc8d53f907afaf4             1789 main/binary-amd64/Packages
+ 6a21a9e96b56dd86a495e6e940f1c659              934 main/binary-amd64/Packages.gz
+ 33b8a5475e990b638ee44af36269627b             1789 main/binary-arm64/Packages
+ 74d2bbca3d08c5590759721290fbeff5              932 main/binary-arm64/Packages.gz
+SHA1:
+ 2c4c16a821eb38e7d09daf775ea7047adfdd2e61              202 Release
+ c3033f0df0d05e934bf3b2604b6c27c841cb656f             1789 main/binary-amd64/Packages
+ 4527844ab3ce6392d68d812d5326816021bfa12b              934 main/binary-amd64/Packages.gz
+ 8b2e6cb9290b65373af39ff7a8df72435e3e8812             1789 main/binary-arm64/Packages
+ 93aa71acc48408decb2a168d6afd80ee76b4d71d              932 main/binary-arm64/Packages.gz
+SHA256:
+ 7c07019f9ad182f2de620fa6aa677426623b811cbcddc6d4db615d0067fdf83e              202 Release
+ fd835848bd5432d6b6558a3d3b96ca55ac3abdda64366a2cf12a4289f33267a6             1789 main/binary-amd64/Packages
+ 11d360cc71da0ff36e46a3d625006748a2d6ba5ba5d4d8794c35610fbb5eaac8              934 main/binary-amd64/Packages.gz
+ 91dbafc2af7885052b7d58e40e5d79f335fd8bf3479888a80b859141769f931e             1789 main/binary-arm64/Packages
+ c8effdf6a1854f932969a8be682ed0cdbc18e5013e96cf9fdf2fcc59696cf3a0              932 main/binary-arm64/Packages.gz
+SHA512:
+ 8c966a9c039880f46f327c87f612c1e1f7bafda7e911c67101f93e450a88c939c1b25120732bb05b37f7722ed9bcc71937a085112df4548621c26c0d39cda31e              202 Release
+ 83f59b0a573d074728349c34c4c898dfe64a6acf99cb7491aa372970de47b0223b12f9615d6208b952e60b9d3155e753fc45f1c1302bef66591e35f7c21bc26f             1789 main/binary-amd64/Packages
+ f2d9acba290a74ff60044659aca04098f648411fa5d4b4fe58b9107ba855f5250f43de54fb6a3e120561ea57a8eab5e40818b3520db29d849dc613b25c40708f              934 main/binary-amd64/Packages.gz
+ c5ef4b1d9b7c0c0b4b3149dbebbe7bdd4b8c224a261ed5c41cd620cca2a739f02b69443f9bfd11521999db8a0940bf866f1066032939cb7a2eba4bc747ae5469             1789 main/binary-arm64/Packages
+ c15d9c5844fc21d593495810696293ed066da12c156783d9ecc6a4fdc106f845620f005ef78f2d2e99b6fc6216c3b5320e9eb74eccc26e01e3acd426aeaa359e              932 main/binary-arm64/Packages.gz
