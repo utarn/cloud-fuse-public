@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 arm64
+Codename: noble
+Components: main
+Date: Thu, 12 Nov 2026 18:34:57 +0000
+Description: Cloud Fuse package repository (noble)
+Label: Cloud Fuse
+Origin: Cloud Fuse
+Suite: noble
+MD5Sum:
+ 704d10de846e6b0e7fa2995fc803b833              199 Release
+ 52ddd4f05a88dc1e3016fd9101fec39f             1787 main/binary-amd64/Packages
+ 1c85956007d8b5ffc6b554c1a576697c              931 main/binary-amd64/Packages.gz
+ d02e72552a3cd79090081f6346a2014c             1787 main/binary-arm64/Packages
+ 9edba73e4499015f2c59b201cf266770              929 main/binary-arm64/Packages.gz
+SHA1:
+ a330b3ede57bcb558bf1ec177760102931b4d8b7              199 Release
+ d66d78b3165187372635a5d18fc967d70f6e48a7             1787 main/binary-amd64/Packages
+ eaf7ecc8c0ed62bbd42c3915bc64e9cd47e91387              931 main/binary-amd64/Packages.gz
+ 3a4127c17b66f83d9cbad357fc2b307cca0dfdd9             1787 main/binary-arm64/Packages
+ b12fdcab47163873eee5a2a4b083fb25af5f9a85              929 main/binary-arm64/Packages.gz
+SHA256:
+ 177e59d10fafd5f75fce8b9a8b80d814757732ce6ad4d43e443cacdc75d50ff1              199 Release
+ ad33b6a22acc2bda7e6b9b51947f46a36acbd67c71d1a4b50a4fe1e278b51f9e             1787 main/binary-amd64/Packages
+ 5e825b79299d5ee01562e4fe2e3b9db27f0d5ea2d11e7a5f101317e87ddc6005              931 main/binary-amd64/Packages.gz
+ 0bb7f70bb4fe7f694c40832fda8e7990229c975867d246de83cbbbd7adc62cf7             1787 main/binary-arm64/Packages
+ 279a027f850488b5042b7237f44401b1aba08927fd7bd1f6e3d6e6cff51b6cd4              929 main/binary-arm64/Packages.gz
+SHA512:
+ 22e5b3431a96efaef49e98f67c8175e28037a938b2b8e92bcc15957010883b525447229bc00e9fdc6cdc25247299e9cb1975dfc40ab9ade37bb267d63520f2b1              199 Release
+ f6d86b621f16b9c4363f35c3cb8335a3ad01797f9a2edf73c8c53a539057c74087c2ec1b31b54aafb61494be6bf2b09a930ae2d8bca08328cdc3bf18a05bb46a             1787 main/binary-amd64/Packages
+ d86476eae556ab39357dfd9e950529d2b83dc27cff7a56790f98d5f688d2c5c74e5b69de1558bebedcaaad07f9f29aa3c3c319b1c9643e68e08837d7d56e1d5a              931 main/binary-amd64/Packages.gz
+ 8de64d8b497e8d2bdc0f28bbf1d488ba31fe375563ed5fa0c95ed9fe3cf7b9b3d57bb20b48d4bf11bc11b61915903da2924e6cc35cb02eb5de59c5bce7073062             1787 main/binary-arm64/Packages
+ d8bdca43c0b51e075113e24f70d20df5a791d0fd160da88d8d6415f9e7948198785dfb80423f49b563406ecfbbbc7aa97112cb9caf5771feebdf0a106ab929f6              929 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEkiKBxgP4KajV1lgy8j3drHvCqj8FAmr2BtEACgkQ8j3drHvC
+qj9kVA/+IoNbAO1wI1SwNpYcc3x9wvI4uMDwlSDhGSXF5Jvi6bwWUqhzUqO778gf
+aGlik63450SJ47LSmbqnAdqvQU8WWsdKXqXlc+qNta1kACRF2TB3oGCIlerfJqPB
+j03QMDXxfKgaQgJyhX8WscaLMY3JBDgatYuOcm2ZfDgZH1svew/hqnHaQZNLt5hn
+YxHkYKPkOUszjW4Zlb8wMVwA0Na30/22FcyXJM8/z820CLLBF1zUTv+dcgsl8jUq
+GDGxvSwys2UuK86qxz9hiwXSQkRiSG1IU10og/rsna5qfi/rv2Yc7hqGeEy9bP88
+TG67lwuwKNQdPUEC/5A7FyHPEprQiPCxpRzKLsamo/ppr6I6fssIW1hHF0VGtEPF
+6o5KJvnT8yKdpee97b+svRTuvX0KZmyI0gAFtSaQlhQkBJVLJ0LsBbzUOpTLdhf2
+ldKw3jaqwQLkZDaCMY3bI2IQpUU75zKYvOpt2R1TEGgF3qD9h0WgaA6OrIPrjOgp
+XGA2kMUU2qBoADJHfwT+FbXHP2AMCbOVj+iTtpe/4gCYRjBOAPLhA7p0wGspcj7Q
+bCYMrcRMQYJKkwAf/aOFHV5TjBXPl6fa98696KgvZHNvAhKpRSxTnzTosk6VoE+G
+J1ivGJYzHB4ifnaTYNp1oQJo8QDaOwIMnhwyzrwP7ftm4S7aQnw=
+=166Y
+-----END PGP SIGNATURE-----
