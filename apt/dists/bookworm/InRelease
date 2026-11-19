@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 arm64
+Codename: bookworm
+Components: main
+Date: Thu, 19 Nov 2026 03:59:58 +0000
+Description: Cloud Fuse package repository (bookworm)
+Label: Cloud Fuse
+Origin: Cloud Fuse
+Suite: bookworm
+MD5Sum:
+ 7b10e92a0359df909c59eff5d0b38b11              208 Release
+ 3353de0a5bbd5780106b91cfd91b0cdb             1793 main/binary-amd64/Packages
+ 15b8bab99433ef5101b9079ad8021374              933 main/binary-amd64/Packages.gz
+ 689dc154f284e65b108247c24eb0a5d1             1793 main/binary-arm64/Packages
+ ab1604b8d01e9b6494321ec0b6863970              933 main/binary-arm64/Packages.gz
+SHA1:
+ 7b080a3117e8440d8aa466b278602d4c6ee885b6              208 Release
+ 6791b983073c22c9f963eb66e0aefa61b531ab1a             1793 main/binary-amd64/Packages
+ fa4376a5312fa88757660f9799074b7dfac9d49c              933 main/binary-amd64/Packages.gz
+ be1e6823733da5877197fd3511a2d9091e223860             1793 main/binary-arm64/Packages
+ afb3b496bd976c9d4b27679727a876c1e3e9943a              933 main/binary-arm64/Packages.gz
+SHA256:
+ 9236cebb671b7fdd43140db89c95f7de49c67777515fea1a298132a233cb2549              208 Release
+ e84a0927428ce942e1326c0e464dc51a2d6da4fa7628ada8b14f2e41e9b4a1ea             1793 main/binary-amd64/Packages
+ a58a7bb8e8339d5a6e251e07d552eca1740cb9f22ef307c8ff504927c5bc94b6              933 main/binary-amd64/Packages.gz
+ 7118c92030dad7682afdec456e6846f50ea16c7b35ead424926b8a544584bb59             1793 main/binary-arm64/Packages
+ 043c2e0a991a9908c23df3cf0f3783b79966a556615b877488c86b7bffe84fb4              933 main/binary-arm64/Packages.gz
+SHA512:
+ a3efac117e4e11b3990b590c5f38caaea92598b8b535ef39158a4aa1290dfdb3c657d4761a4699757b6e1d8ab17681c6c7cf261fce02b8e492905f380b137ca9              208 Release
+ 02df6ad7865829681c68754e08807968da45eca65314403c300168294ec75502c7225fd2e659983cae1680717000dc489c6f3ccce52c0e874b5672ff8e71eaa8             1793 main/binary-amd64/Packages
+ bcbdee99d7337d88122499c1a23cba0fb259aac8e7495e63c5f83005081425ecee12eedf1cf375be8c4426eb6700b5ff663b0ddf485a5eac2081edfe2dc12991              933 main/binary-amd64/Packages.gz
+ e81479a3c5bf8bbb26ff8ac10415451bca9d3566fc4c6ad0718717b0fedf18dbacf50d20646a5441ee209cdb590e2e7529f4a47cdd3be8b21f0c98608e64ebf3             1793 main/binary-arm64/Packages
+ d2617d758d09fd6fbeee0d10c1ea004490326ec3890cb5bb98e191ef5f3528c29ef80fed4e7ce0baac5872ef5799691c4d77505e35ccd744098675878cfb1546              933 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEkiKBxgP4KajV1lgy8j3drHvCqj8FAmr+dD4ACgkQ8j3drHvC
+qj9iFg//VXuOk72vSNGrvsOnfpnsImMt/4VZIuC1PLZOPNb6xvDsukYnV1PkN8Qh
+SMNtsgYw569qe4mB8K2oECX5iJRWSg1Q4l+C63UcN7w/5B05Tg+xF0G1gNbWnxdf
+67Qktthz6aKwH2MBNNLJvrvRGfFPXA71mcRzRI4izf1JL+Vq7uampAxlDYnUPqyF
+GQTgyV0mYEDpg+iOrDRhTPhE3VksgdBmqkGG7nhfk3+2Enubt7nS3TdMZxLZUzyt
+nDwCDADb8drmtTad7CsNFaCi7NyhE3j9wL0lundF2RDwJMHUX53uHRuXmJ4FidgC
+kp+iKQVMAhFjpRgWR3UJ/QSV03MhfjamBui+umgaC0icv1aRMCZ/4HGzdfZJuR5b
+BoNZIlD38DqJBVWxWPGtviKjP7OmW9gcbHCM2gvI0KnostDRo5vCAkM3/avGyrd1
+VhxmzGc2lHIeUgrme5fSkgznbCjkBWSIaoDNa4EVV3DhkJItuqfHpGbYEQfeRaXo
+CLjlM4hMmUsHi1RawXS05FNqhH4H243FYOPt0cyV+KI927494Pj5JnV0oqeCEQpG
+r+G9bI+v/0gph7DZt5nzrpRIkVVRA8XTIH8Rh4ZBGBfwdDYvNsG8jdZi8Nc6/nkn
+MlVHwK2ceaTVG25bwSzaEkspC4iSgMZGHJlIepBXOsK3A39hZU0=
+=GmgN
+-----END PGP SIGNATURE-----

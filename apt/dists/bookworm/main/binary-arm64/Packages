@@ -1,0 +1,42 @@
+Package: cloud-fuse
+Version: 0.5.6
+Architecture: arm64
+Maintainer: Utharn Buranasaksee <utharn.b@rmutsb.ac.th>
+Installed-Size: 11
+Depends: fuse3, ca-certificates, libc6 (>= 2.34)
+Recommends: apparmor
+Filename: pool/bookworm/c/cloud-fuse/cloud-fuse_0.5.6_arm64.deb
+Size: 3676464
+MD5sum: 5339c1a8de8d7dbfce5fe794d18a4e54
+SHA1: 211f788fa5d34d7e89917a0e02a09dfd02a9661c
+SHA256: d0235031e3f78a60fcd8714baced67e51255286e585d2c17eafdb0092a7e43e4
+Section: utils
+Priority: optional
+Homepage: https://github.com/utarn/cloud-fuse-public
+Description: mount a remote account as an on-demand FUSE filesystem
+ Cloud Fuse mounts a Google Drive or Cloud Server account as an on-demand,
+ read-write FUSE filesystem.  This package contains the daemon, the
+ cloud-fuse command-line client, and the terminal user interface.
+ .
+ The package installs the cloud-fuse@.service template unit but enables no
+ Instance.  Create one with "cloud-fuse setup <account>".
+
+Package: cloud-fuse-gui
+Version: 0.5.6
+Architecture: arm64
+Maintainer: Utharn Buranasaksee <utharn.b@rmutsb.ac.th>
+Installed-Size: 6
+Depends: cloud-fuse (= 0.5.6), libc6 (>= 2.34), libgl1, libx11-6, libxcursor1, libxrandr2, libxi6, libxinerama1, libwayland-client0, libxkbcommon0, fonts-dejavu-core
+Filename: pool/bookworm/c/cloud-fuse/cloud-fuse-gui_0.5.6_arm64.deb
+Size: 1973168
+MD5sum: 3e3b4adb84601abd7acfc07df92d528c
+SHA1: f30357474102f872ca73fb29c44988bf60739db9
+SHA256: 75c35bfe70385f3125d686a114b2c2245773758c7795863193e677ae3a957172
+Section: utils
+Priority: optional
+Homepage: https://github.com/utarn/cloud-fuse-public
+Description: optional status GUI for Cloud Fuse
+ A single status window showing mount and account state, throughput, Cache
+ usage, and a Needs re-auth banner.  The GUI is optional and the server
+ package never pulls it in.
+
